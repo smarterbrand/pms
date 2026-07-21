@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Become a Customer — Pittsburgh Maintenance Solutions</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="site-logo" aria-label="Pittsburgh Maintenance Solutions — Home">
+        <img src="assets/logo.svg" alt="Pittsburgh Maintenance Solutions">
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="services/index.html">Services</a>
+        <a href="about.html">Why Us</a>
+        <a href="become-a-customer.html" aria-current="page">Become a Customer</a>
+        <a href="become-a-vendor.html">Become a Vendor</a>
+        <a href="work-order.html" class="btn btn--small">Submit a Work Order</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="section">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a> / Become a Customer
+        </nav>
+        <div class="grid grid--2" style="gap:4rem; align-items:start;">
+
+          <div>
+            <span class="eyebrow">Prospective Customers</span>
+            <h1 style="font-size:clamp(2rem,4vw,3rem);">Tell us about your portfolio.</h1>
+            <p class="lead" style="margin-top:1rem;">If you manage or own rental property and you're tired of chasing contractors, you're in the right place. Fill out the application and we'll follow up to talk about how we'd handle your maintenance.</p>
+
+            <div style="margin-top:2.5rem;">
+              <h3 style="margin-bottom:1rem;">What happens next</h3>
+              <div class="step" style="margin-bottom:1.25rem;">
+                <span class="step__num">Step 1</span>
+                <h3>We review your application</h3>
+                <p>We make sure your portfolio is a fit for how we work — see <a href="about.html">what we do and don't</a>.</p>
+              </div>
+              <div class="step" style="margin-bottom:1.25rem;">
+                <span class="step__num">Step 2</span>
+                <h3>Intro call</h3>
+                <p>A short call about your properties, your current maintenance headaches, and our process.</p>
+              </div>
+              <div class="step">
+                <span class="step__num">Step 3</span>
+                <h3>You start sending work orders</h3>
+                <p>We set you up in our system and take it from there.</p>
+              </div>
+            </div>
+
+            <p style="margin-top:2.5rem;" class="muted">Already a customer? <a href="work-order.html">Submit a work order</a>.<br>Subcontractor? <a href="become-a-vendor.html">Become a vendor</a>.</p>
+          </div>
+
+          <div class="panel">
+            <h3 style="margin-bottom:0.5rem;">Customer Application</h3>
+            <p class="muted" style="margin-bottom:1.5rem; font-size:0.875rem;">Placeholder form — fields to be confirmed. <span class="todo">TBD</span></p>
+            <form>
+              <div class="form-field">
+                <label for="name">Your name</label>
+                <input type="text" id="name" name="name">
+              </div>
+              <div class="form-field">
+                <label for="company">Company / entity name</label>
+                <input type="text" id="company" name="company">
+              </div>
+              <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+              </div>
+              <div class="form-field">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone">
+              </div>
+              <div class="form-field">
+                <label for="role">I am a…</label>
+                <select id="role" name="role">
+                  <option>Property manager</option>
+                  <option>Landlord / investor</option>
+                  <option>Apartment owner</option>
+                  <option>Asset manager / REIT</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="units">Number of units</label>
+                <select id="units" name="units">
+                  <option>1–10</option>
+                  <option>11–50</option>
+                  <option>51–200</option>
+                  <option>200+</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="areas">Where are your properties?</label>
+                <input type="text" id="areas" name="areas" placeholder="Neighborhoods / municipalities">
+              </div>
+              <div class="form-field">
+                <label for="needs">What do you need help with?</label>
+                <textarea id="needs" name="needs" placeholder="Unit turns, ongoing work orders, Section 8 punch lists…"></textarea>
+              </div>
+              <button type="button" class="btn" style="width:100%;">Submit Application</button>
+              <p class="form-note">Wireframe only — form is not wired up.</p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="grid grid--3">
+        <div>
+          <div class="footer-logo">
+            <img src="assets/logo.svg" alt="Pittsburgh Maintenance Solutions">
+          </div>
+          <p>The maintenance department for professional landlords.</p>
+          <p style="margin-top:1rem;">
+            Phone: (412) 000-0000 <span class="todo">TBD</span><br>
+            Email: info@pghms.com <span class="todo">TBD</span>
+          </p>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services/make-ready-unit-flips.html">Make Ready / Unit Flips</a></li>
+            <li><a href="services/handyman-repairs.html">Handyman &amp; Repairs</a></li>
+            <li><a href="services/plumbing.html">Plumbing</a></li>
+            <li><a href="services/hvac.html">HVAC</a></li>
+            <li><a href="services/roofing.html">Roofing</a></li>
+            <li><a href="services/snow-removal.html">Snow Removal</a></li>
+            <li><a href="services/section-8-punch-list.html">Section 8 Punch Lists</a></li>
+            <li><a href="services/index.html">All services →</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">Why Us</a></li>
+            <li><a href="become-a-customer.html">Become a Customer</a></li>
+            <li><a href="work-order.html">Submit a Work Order</a></li>
+            <li><a href="become-a-vendor.html">Become a Vendor</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 Pittsburgh Maintenance Solutions · pghms.com</span>
+        <span>Wireframe prototype — not final design or copy</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
